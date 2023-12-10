@@ -1,0 +1,7 @@
+.chartbars-container {
+  background-color: rgb(64, 224, 203);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}

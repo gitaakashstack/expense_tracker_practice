@@ -1,0 +1,17 @@
+.filterby-year {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterby-year > label {
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.filterby-year > select {
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  outline: none;
+}

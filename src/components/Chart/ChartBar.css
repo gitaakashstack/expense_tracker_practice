@@ -1,0 +1,26 @@
+.chartbar-level1 {
+  width: 30px;
+}
+
+.bar-shell {
+  width: 15px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: rgb(89, 123, 196);
+  border-radius: 10px;
+  transform: rotate(180deg);
+  overflow: hidden;
+}
+/* transform(180deg) because height percentage is taken from top, so it is filling from top. And oveflow hidden because .actual-bar content
+actually takes up the whole rectangular space of .bar-shell(neglecting its border-radius)*/
+
+.actual-bar {
+  background-color: rgb(21, 78, 201);
+  transition: height 1s;
+}
+
+.label {
+  font-size: 0.8rem;
+  text-align: center;
+}
+/**/

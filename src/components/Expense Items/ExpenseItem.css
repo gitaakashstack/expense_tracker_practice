@@ -1,0 +1,27 @@
+.expense-item {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #3f3f3f;
+  box-shadow: 0 0 2px 5px #3f3f3f;
+  align-items: center;
+}
+.expense-item-name_date {
+  display: flex;
+  align-items: center;
+}
+.expense-name {
+  color: white;
+}
+.expense-item-name_date > * {
+  padding: 10px;
+}
+
+.expense-rate {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 1px 1px rgb(218, 209, 209);
+  background-color: rgb(3, 3, 228);
+  color: white;
+}

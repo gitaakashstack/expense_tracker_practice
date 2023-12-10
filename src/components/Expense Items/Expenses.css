@@ -1,0 +1,15 @@
+.expense-items-wrapper {
+  background-color: #5e5d5d;
+  padding: 20px;
+  margin: 50px 0;
+}
+
+.expense-items-wrapper > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.no-expense {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
